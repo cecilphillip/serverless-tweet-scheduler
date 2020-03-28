@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "ServiceBusConnection",
+      "name": "msg",
+      "queueName": "scheduled-tweets"
+    }
+  ]
+}
