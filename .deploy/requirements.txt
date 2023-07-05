@@ -2,7 +2,7 @@ Arpeggio==1.9.2
 attrs==19.3.0
 autopep8==1.5
 dill==0.3.1.1
-grpcio==1.27.2
+grpcio==1.53.0
 isodate==0.6.0
 parver==0.3.0
 protobuf==3.11.3
