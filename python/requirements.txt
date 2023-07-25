@@ -3,7 +3,7 @@ autopep8==1.5
 azure-common==1.1.25
 azure-functions==1.2.0
 azure-servicebus==0.50.2
-certifi==2019.11.28
+certifi==2023.7.22
 cffi==1.14.0
 chardet==3.0.4
 cryptography==39.0.1
